@@ -1,0 +1,70 @@
+.confirm
+	background: #FAFAFA
+	padding: 130px 0
+	&-content
+		max-width: 550px
+		margin: 0 auto
+		background: #FFFFFF
+		box-shadow: 0px 0px 5px #E7EAF4
+		border-radius: 3px
+		padding: 0 44px 47px
+	&-icon
+		background: #59AB01
+		width: 121px
+		height: 121px
+		border-radius: 100%
+		margin: 0 auto
+		display: flex
+		justify-content: center
+		align-items: center
+		transform: translateY(-50%)
+	&-form
+		&__input
+			display: flex
+			position: relative
+			margin-bottom: 50px
+			.input
+				width: 90%
+				border-top-right-radius: 0
+				border-bottom-right-radius: 0
+				padding: 11px 25px
+			&::after
+				content: ''
+				display: block
+				width: 90%
+				height: 100%
+				position: absolute
+				left: 0
+				top: 0
+				z-index: 2
+		&__label
+			display: block
+			width: 10%
+			flex-shrink: 0
+			height: 48px
+			margin: 0
+			border: 1px solid #E0E0E0
+			border-left: none
+			border-top-right-radius: 3px
+			border-bottom-right-radius: 3px
+			background: url('../img/pencil.png') center no-repeat
+			cursor: pointer
+		&__text
+			text-align: center
+			font-weight: normal
+			font-size: 16px
+			text-align: center
+			color: #4D5258
+			padding: 0 15px
+			margin-bottom: 15px
+		&__button
+			text-align: center
+			margin-bottom: 45px
+	&-buttons
+		display: flex
+		justify-content: space-between
+		.btn
+			flex: 0 0 100%
+			max-width: 214px
+			text-align: center
+			padding: 12px 5px

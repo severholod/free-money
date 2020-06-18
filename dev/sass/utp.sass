@@ -1,0 +1,86 @@
+.utp
+	padding-top: 48px
+	padding-bottom: 63px
+	.section-title
+		padding-left: 15px
+		padding-right: 15px
+		margin-bottom: 33px
+	.row
+		padding-left: 50px
+		padding-right: 50px
+	.col-auto
+		margin-top: 80px
+		margin-bottom: 80px
+	&-item
+		height: 180px
+		display: flex
+		align-items: center
+		justify-content: center
+		width: 180px
+	&-border
+		border: 2px solid #59AB01
+		border-radius: 100%
+		.utp-item__img
+			background: #59AB01
+			border-radius: 100%
+			width: 116px
+			height: 116px
+			display: flex
+			align-items: center
+			justify-content: center
+	&-green-border
+		border: 10px solid #59AB01
+		border-radius: 100%
+	&-string
+		font-weight: 300
+		font-size: 17px
+		line-height: 24px
+		color: #4D5258
+	&-top
+		margin-bottom: 79px
+	&-bottom
+		margin-top: 80px
+.left-item
+	position: relative
+	&::after
+		content: ''
+		display: block
+		width: 140px
+		height: 32px
+		background: url('../img/arrow.png') no-repeat
+		background-position: center
+		position: absolute
+		right: -190px
+	&::before
+		content: ''
+		display: block
+		width: 930px
+		height: 146.6px
+		background: url('../img/long-arrow.png') no-repeat
+		background-position: top
+		position: absolute
+		left: -44.5px
+		top: -30%
+.right-item
+	position: relative
+	&::after
+		content: ''
+		display: block
+		width: 140px
+		height: 32px
+		background: url('../img/arrow.png') no-repeat
+		background-position: center
+		transform: rotate(180deg)
+		position: absolute
+		left: -190px
+	&::before
+		content: ''
+		display: block
+		width: 930px
+		height: 146.6px
+		background: url('../img/long-arrow.png') no-repeat
+		background-position: top
+		position: absolute
+		bottom: -30%
+		right: -44.5px
+		transform: rotate(180deg)

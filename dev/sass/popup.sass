@@ -1,0 +1,138 @@
+.popup
+	padding: 11px 38px 34px 44px
+	position: relative
+	display: none
+	&-title
+		margin-bottom: 25px
+	&-subtitle
+		font-weight: 300
+		font-size: 16px
+		line-height: 21px
+		color: #000
+		margin-bottom: 74px	
+		&::after
+			content: ''
+			display: block
+			width: 100%
+			height: 1px
+			background: #E0E0E0
+			position: absolute
+			top: 164px
+			left: 0
+	&-form
+		&__positions
+			display: flex
+			margin-bottom: 75px
+			&::after
+				content: ''
+				display: block
+				width: 100%
+				height: 1px
+				background: #E0E0E0
+				position: absolute
+				top: 194px
+				left: 0
+		&__position
+			margin-right: 34px
+			input
+				display: none
+			label
+				font-weight: 300
+				font-size: 17px
+				line-height: 20px
+				color: #000
+				display: flex
+				align-items: center
+				&::before
+					content: ''
+					display: inline-block
+					width: 26px
+					height: 26px
+					background: #FFFFFF
+					border: 6px solid #fff
+					border-radius: 100%
+					margin-right: 13px
+					box-shadow: 0 0 2px #000
+		&__item
+			margin-bottom: 35px
+		&__checkbox
+			margin-bottom: 50px
+			input
+				display: none
+			label
+				font-weight: 300
+				font-size: 12px
+				line-height: 21px
+				color: #000
+				display: flex
+				a
+					color: #000
+					text-decoration: underline
+				&::before
+					content: ''
+					display: block
+					flex-shrink: 0
+					width: 24px
+					height: 24px
+					background: #FFF
+					border: 1px solid #E0DFE4
+					border-radius: 3px
+					margin-right: 12px
+		&__buttons
+			text-align: right
+			.btn
+				padding: 12px 68px
+				// background: transparent
+				margin-left: 20px
+	&-img
+		width: 119px
+		height: 119px
+		margin: 0px auto 34px
+		border: 7px solid #59AB01
+		border-radius: 100%
+		background: url('../img/confirm-big.png') center no-repeat
+.popup-form__checkbox input:checked + label::before
+	background-image: url('../img/check.png')
+	background-position: center
+	background-repeat: no-repeat
+#zaym:checked + label[for="zaym"]::before
+	background: #59AB01
+#invest:checked + label[for="invest"]::before
+	background: #59AB01
+.fancybox-close
+	background-image: none
+	top: 10px
+	right: 10px
+	width: 24px
+	height: 24px
+	&::before
+		content: ''
+		display: block
+		width: 24px
+		height: 2px
+		background: #59AB01
+		transform: rotate(45deg)
+		position: absolute
+		top: 50%
+	&::after
+		content: ''
+		display: block
+		width: 24px
+		height: 2px
+		background: #59AB01
+		transform: rotate(-45deg)
+		position: absolute
+		top: 50%
+#politic
+	.section-title
+		font-size: 30px
+		line-height: inherit
+#call-done
+	padding: 57px 38px 62px
+	.section-title
+		line-height: 50px
+		margin-bottom: 27px
+	.popup-subtitle
+		margin-bottom: 0
+		&::after
+			display: none

@@ -1,0 +1,404 @@
+<div class="profile-breadcrumbs">
+	<div class="container">
+		<div class="row justify-content-between align-items-center">
+			<div class="col-auto">
+				<div class="profile-breadcrumbs__title">Профиль</div>
+			</div>
+			<div class="col-auto d-none d-sm-block">
+				<ul class="profile-breadcrumbs__list">
+					<li class="profile-breadcrumbs__item">Личный кабинет</li>
+					<li class="profile-breadcrumbs__item profile-breadcrumbs__item-next"><img src="/img/next-white.png" alt="breadcrumbs"></li>
+					<li class="profile-breadcrumbs__item">Профиль</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<section class="profile zaem-profile section-bg">
+	<div class="container">
+		<div class="tabs">
+			<div class="tab tab-active" data-tab="main">ОСНОВНОЕ</div>
+			<div class="tab" data-tab="company">О КОМПАНИИ</div>
+		</div>
+		<div class="tab-content tab-content-active  zaem-profile-content main">
+			<form action="">
+				<div class="zaem-profile-section">
+					<div class="row">
+						<div class="col-12">
+							<div class="profile-img-wrap">
+								<div class="profile-img"><img src="/img/data-img.png" alt="Загрузить изображение"></div>
+								<input type="file" name="img" id="img" accept="image/*,image/jpeg"><label for="img" class="link">Загрузите изображение</label>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="last-name" class="label">Фамилия</label>
+								<input type="text" class="input" id="last-name" name="last-name" value="Иванова">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="first-name" class="label">Имя</label>
+								<input type="text" class="input" id="first-name" name="first-name" value="Ольга">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="second-name" class="label">Отчество</label>
+								<input type="text" class="input" id="second-name" name="second-name" value="Владимировна">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg col-xl-2">
+							<div class="form-item">
+								<label for="date" class="label">Дата рождения</label>
+								<input type="date" class="input" id="date" name="date" value="1980-12-22">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg col-xl-2">
+							<div class="form-item">
+								<label for="gender" class="label">Пол</label>
+								<select name="gender" id="gender" class="input">
+									<option value="Мужской">Мужской</option>
+									<option value="Женский" selected="">Женский</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg col-xl-2">
+							<div class="form-item">
+								<label for="phone" class="label">Сотовый телефон</label>
+								<input type="tel" class="input" id="phone" name="phone" value="8 (917) 783-58-22">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg col-xl-2">
+							<div class="form-item">
+								<label for="phone2" class="label">Стационарный</label>
+								<input type="tel" class="input" id="phone2" name="phone2" value="8 (846) 489-67-76">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg col-xl-4">
+							<div class="form-item">
+								<label for="mail" class="label">e-mail</label>
+								<input type="text" class="input" id="mail" name="mail" value="89778@mail.ru">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="zaem-profile-section bb-sm-none">
+					<div class="row">
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="company-name" class="label">Название компании</label>
+								<input type="text" class="input" id="company-name" name="company-name">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="bank-name" class="label">Банк получателя</label>
+								<input type="text" class="input" id="bank-name" name="bank-name">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="korschet" class="label">Кор. счет</label>
+								<input type="text" class="input" id="korschet" name="korschet">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="inn" class="label">ИНН/КПП</label>
+								<input type="text" class="input" id="inn" name="inn">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="raschet" class="label">Расчетный счет</label>
+								<input type="text" class="input" id="raschet" name="raschet">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="registration" class="label">Юридический адрес</label>
+								<input type="text" class="input" id="registration" name="registration">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="ogrn" class="label">ОГРН</label>
+								<input type="text" class="input" id="ogrn" name="ogrn">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="bik" class="label">БИК</label>
+								<input type="text" class="input" id="bik" name="bik">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="address" class="label">Фактический адрес</label>
+								<input type="text" class="input" id="address" name="address">
+								<div class="form-item__checkbox"><input type="checkbox" class="checkbox" id="address-check"><label for="address-check">совпадает с адресом регистрации</label></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="zaem-profile-section toggle-section">
+					<div class="form-title toggle-title">Директор компании
+						<div class="plus-minus-toggle plus-minus-toggle-green">
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-first"></span>
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-second"></span>
+						</div>
+					</div>
+					<div class="row toggle">
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="director-last-name" class="label">Фамилия</label>
+								<input type="text" class="input" id="director-last-name" name="director-last-name">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="director-first-name" class="label">Имя</label>
+								<input type="text" class="input" id="director-first-name" name="director-first-name">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="director-second-name" class="label">Отчество</label>
+								<input type="text" class="input" id="director-second-name" name="director-second-name">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="director-phone" class="label">Телефон</label>
+								<input type="tel" class="input" id="director-phone" name="director-phone">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="director-mail" class="label">e-mail</label>
+								<input type="mail" class="input" id="director-mail" name="director-mail">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="director-date" class="label">Дата рождения</label>
+								<input type="date" class="input" id="director-date" name="director-date">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="zaem-profile-section toggle-section">
+					<div class="form-title toggle-title">Главный бухгалтер
+						<div class="plus-minus-toggle plus-minus-toggle-green">
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-first"></span>
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-second"></span>
+						</div>
+					</div>
+					<div class="row toggle">
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="buh-last-name" class="label">Фамилия</label>
+								<input type="text" class="input" id="buh-last-name" name="buh-last-name">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="buh-first-name" class="label">Имя</label>
+								<input type="text" class="input" id="buh-first-name" name="buh-first-name">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="buh-second-name" class="label">Отчество</label>
+								<input type="text" class="input" id="buh-second-name" name="buh-second-name">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="buh-phone" class="label">Телефон</label>
+								<input type="tel" class="input" id="buh-phone" name="buh-phone">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="buh-mail" class="label">e-mail</label>
+								<input type="mail" class="input" id="buh-mail" name="buh-mail">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="buh-date" class="label">Дата рождения</label>
+								<input type="date" class="input" id="buh-date" name="buh-date">
+							</div>
+						</div>
+					</div>
+					<div class="form-button"><button class="btn green-btn">сохранить</button></div>
+				</div>
+			</form>
+		</div>
+		<div class="tab-content  zaem-profile-content company">
+			<form action="">
+				<div class="zaem-profile-section bb-sm-none">
+					<div class="form-title">Описание заемщика</div>
+					<div class="row">
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="city" class="label">Город</label>
+								<input type="text" class="input" name="city" id="city">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="business-date" class="label">Дата создании бизнеса</label>
+								<input type="date" class="input" name="business-date" id="business-date">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="form-item">
+								<label for="org-form" class="label">Организационно-правовая форма</label>
+								<select name="org-form" id="org-form" class="input">
+									<option value="ИП">Индивидуальный предприниматель</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-item">
+								<label for="main-activity" class="label">Основная деятельность</label>
+								<textarea name="main-activity" id="main-activity" class="input"></textarea>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-item">
+								<label for="dop-activity" class="label">Дополнительная деятельность</label>
+								<textarea name="dop-activity" id="dop-activity" class="input"></textarea>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="season" class="label">Сезонность бизнеса</label>
+								<input type="text" class="input" id="season" name="season">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="use-os" class="label">Используемые ОС</label>
+								<input type="text" class="input" id="use-os" name="use-os">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="proof" class="label">Подтверждение местонахождения</label>
+								<input type="text" class="input" id="proof" name="proof">
+								<div class="proof"><input type="file" name="proof-file" id="proof-file"><label for="proof-file" class="proof-label">Загрузите изображение</label></div>
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<div class="form-item">
+								<label for="premises" class="label">Помещения используемые в бизнесе</label>
+								<textarea name="premises" id="premises" class="input"></textarea>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="form-item">
+								<label for="employees" class="label">Количество сотрудников</label>
+								<input type="text" class="input" id="employees" name="employees">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-item">
+								<label for="suppliers" class="label">Поставщики</label>
+								<textarea name="suppliers" id="suppliers" class="input"></textarea>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-item">
+								<label for="buyers" class="label">Покупатели</label>
+								<textarea name="buyers" id="buyers" class="input"></textarea>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="form-item">
+								<label for="description" class="label">Описание бизнеса</label>
+								<textarea name="description" id="description" class="input"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="zaem-profile-section toggle-section">
+					<div class="form-title toggle-title">Собственник
+						<div class="plus-minus-toggle plus-minus-toggle-green">
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-first"></span>
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-second"></span>
+						</div>
+					</div>
+					<div class="row toggle">
+						<div class="col-sm-4">
+							<div class="form-item">
+								<label for="owner-last-name" class="label">Фамилия</label>
+								<input type="text" class="input" id="owner-last-name" name="owner-last-name">
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="form-item">
+								<label for="owner-first-name" class="label">Имя</label>
+								<input type="text" class="input" id="owner-first-name" name="owner-first-name">
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="form-item">
+								<label for="owner-second-name" class="label">Отчество</label>
+								<input type="text" class="input" id="owner-second-name" name="owner-second-name">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="form-item">
+								<label for="owner-date" class="label">Дата рождения</label>
+								<input type="date" class="input" id="owner-date" name="owner-date">
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="form-item">
+								<label for="owner-gender" class="label">Пол</label>
+								<select name="owner-gender" id="owner-gender" class="input">
+									<option value="Мужской">Мужской</option>
+									<option value="Женский">Женский</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="owner-nationality" class="label">Гражданство</label>
+								<select name="owner-nationality" id="owner-nationality" class="input">
+									<option value="РФ">РФ</option>
+									<option value="Беларусь">Беларусь</option>
+									<option value="Казахстан">Казахстан</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="form-item">
+								<label for="owner-education" class="label">Образование</label>
+								<select name="owner-education" id="owner-education" class="input">
+									<option value="Высшее">Высшее</option>
+									<option value="Неоконченное высшее">Неоконченное высшее</option>
+									<option value="Среднее профессиональное">Среднее профессиональное</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="form-item">
+								<label for="owner-assets" class="label">Личные активы</label>
+								<textarea name="owner-assets" id="owner-assets" class="input"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="form-button d-flex justify-content-between align-items-center">
+						<a href="#" class="link">ДОБАВИТЬ СОБСТВЕННИКА</a>
+						<button class="btn green-btn">сохранить</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>

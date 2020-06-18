@@ -1,0 +1,807 @@
+@media(min-width: 1200px)
+	.arrow-lg::after
+		display: none
+@media(max-width: 1649px)
+	.greenbanner
+		// overflow: hidden
+		&-img
+			img
+				max-width: 800px
+@media(max-width: 1199px)
+	.left-item::before, .right-item::before
+		width: 735px
+		background-position: center
+		background-size: contain
+	.left-item::after 
+		right: -130px
+		background-position: right
+		width: 100px
+	.right-item::after
+		left: -130px
+		background-position: right
+		width: 100px
+	.greenbanner
+		&-img
+			img
+				max-width: 700px
+	.greenbanner.zaem
+		.greenbanner-img
+			img
+				max-width: 350px
+	.about
+		.greenbanner-img
+			top: 0
+	.investor
+		&-text-block
+			padding: 23px 30px
+	.work
+		padding-bottom: 40px
+		.row
+			flex-wrap: nowrap
+			overflow-x: scroll
+		&-item
+			margin-bottom: 0
+	.projects
+		&-item
+			&__text
+				padding: 15px 15px 30px
+			&__progresstext
+				font-size: 14px
+			&__descr span
+				font-size: 16px
+			&__buttons
+				.btn
+					font-size: 14px
+					max-width: 125px
+	.breadcrumbs
+		.row
+			overflow-x: scroll
+	.label
+		font-size: 14px
+	.description-item
+		padding: 15px 12px
+	.pay-check::after
+		width: 760px
+@media(max-width: 991px)
+	.header-investor
+		.header-nav__item
+			margin-left: 10px
+			a
+				font-size: 14px
+	.banner
+		&-bigtext
+			font-size: 54px
+			line-height: 64px
+	.utp
+		&-item
+			width: 150px
+			height: 150px
+			margin: 0 auto
+			padding: 0
+		&-border
+			.utp-item__img
+				width: 96px
+				height: 96px
+				img
+					max-width: 50px
+		&-green-border
+			margin-top: 100px
+			margin-bottom: 100px
+			img
+				max-width: 104px
+	.right-item::before
+		transform: rotate(-90deg)
+		right: -120%
+		bottom: auto
+		top: -135%
+		width: 615px
+	.right-item::after
+		transform: rotate(-90deg)
+		left: 37px
+		top: -70px
+		width: 68px
+	.left-item::before
+		transform: rotate(90deg)
+		left: -120%
+		top: 135%
+		width: 615px
+	.left-item::after
+		transform: rotate(90deg)
+		right: 37px
+		bottom: -70px
+		width: 68px
+	.about
+		.greenbanner-img
+			left: 250px
+			top: 70px
+			img
+				max-width: 600px
+	.advantages
+		padding-bottom: 0
+		&-item
+			margin: 0 auto 77px
+			height: 280px
+			max-width: 405px
+	.news
+		&-item
+			min-height: 478px
+	.zaem
+		.greenbanner-img
+			right: 0
+		&-utp
+			.row
+				flex-wrap: nowrap
+				overflow-x: scroll
+			&-item
+				width: 180px
+	.investor
+		.greenbanner-img
+			left: 110px
+	.pay-check::after
+		width: 570px
+	.grid
+		&-table
+			&__head
+				&-item
+					font-size: 14px
+					padding: 7px
+			&__row
+				&-title
+					font-size: 13px
+					padding: 10px
+				&-value
+					font-size: 13px
+					padding: 10px
+	.add-button
+		text-align: center
+@media(max-width: 992px) and (min-width: 576px)
+	.calculator
+		&-button
+			height: 100%
+			.btn
+				height: 100%
+				display: flex
+				align-items: center
+				justify-content: center		
+@media(max-width: 767px)
+	.top
+		display: none
+	.header
+		top: 0
+		.container
+			max-width: none
+		.top-login
+			border: none
+			padding: 0
+			position: relative
+			&::before
+				content: ''
+				display: inline-block
+				width: 1px
+				height: 40px
+				background: #E0E0E0
+				position: absolute
+				left: -15px
+				top: -8px
+		&-logo img
+			max-height: 40px
+	.padding
+		padding-top: 40px
+	.banner
+		padding-top: 35px
+		padding-bottom: 105px
+		background-position: 60% 10%
+		&-list
+			margin-bottom: 62px
+			&__item
+				&-line
+					padding-left: 0
+					&::before
+						display: none
+		&-bigtext
+			font-size: 44px
+	.section-title
+		font-size: 26px
+		line-height: 34px
+	.greenbanner
+		&-img
+			position: static
+	.about
+		padding-bottom: 16px
+		.greenbanner-img
+			margin-top: 20px
+	.news
+		padding-top: 54px
+	.zaem
+		padding-bottom: 0
+		.greenbanner-img
+			margin-top: 27px
+		&-utp
+			padding-top: 49px
+			padding-bottom: 37px
+	.investor
+		padding-bottom: 0
+		.greenbanner-img
+			margin-top: 21px
+			margin-left: -110px
+		&-text-block
+			margin-top: 20px
+	.projects
+		padding-bottom: 50px
+		&-item
+			&__buttons
+				.btn
+					max-width: 238px
+	.footer
+		padding-bottom: 10px
+		&-phone
+			font-size: 16px
+		&-politic
+			font-size: 16px
+		&-item
+			font-size: 16px
+			text-align: center
+			margin-bottom: 10px
+	.popup
+		&-form
+			&__positions::after
+				top: 130px
+	.form
+		&-button
+			.btn
+				width: 100%
+				text-align: center
+		&-item
+			&__checkbox
+				label
+					font-size: 12px
+	.fact
+		&-checkbox
+			right: auto
+			left: 15px
+			top: -40px
+	.contracts
+		&-item
+			&__description
+				&-linkwrap
+					justify-content: flex-start
+	.oferta
+		&-photo
+			margin-bottom: 20px
+		&-offers
+			margin-bottom: 20px
+	.calculator
+		&-title
+			font-size: 26px
+			line-height: 32px
+		&-subtitle
+			font-size: 16px
+			line-height: 25px
+	.tabs
+		&-3
+			.tab
+				flex: 0 0 33.33333%
+				min-width: auto
+				padding: 14px
+	.pays
+		overflow-x: scroll
+		.container
+			width: 720px
+			max-width: 720px
+	.settings
+		padding-bottom: 171px
+		.container
+			padding: 0
+			max-width: 100%
+	#call
+		.section-title
+			line-height: 70px
+		.popup-subtitle
+			&::after
+				top: 145px
+	.grid
+		padding-top: 25px
+		padding-bottom: 40px
+		.container
+			max-width: none
+		&-table
+			overflow-x: scroll
+			margin: 0 auto
+			&__row
+				width: 690px
+			&__head
+				width: 690px
+	.form-button.d-flex
+		flex-wrap: wrap
+		.link
+			margin-bottom: 15px
+@media(max-width: 767px) and (min-width:576px)
+	.requisites
+		.label
+			font-size: 13px
+@media(min-width: 576px)
+	.profile .form-title .plus-minus-toggle
+		display: none			
+@media(max-width: 575px)
+	.banner
+		background-position: 65% 10%
+		&-list
+			&__item
+				font-size: 12px
+		&-bigtext
+			margin-bottom: 18px
+		&-smalltext
+			margin-bottom: 20px
+		&-button
+			line-height: 66px
+			.btn
+				display: block
+				padding: 0 49px
+				text-align: center
+	.utp
+		.row
+			padding-left: 0
+			padding-right: 0
+	.slider-arrows
+		flex-shrink: 0
+	.slider-prev, .slider-next
+		width: 33px
+		height: 33px
+	.news
+		&-slider
+			margin-top: 30px
+			&__button
+				width: 100%
+				line-height: 58px
+				.btn
+					display: block
+					padding: 0 49px
+					text-align: center
+		&-item
+			&__date
+				padding: 7px 20px
+	.greenbanner-button
+		line-height: 58px
+		.btn
+			display: block
+			padding: 0 49px
+			text-align: center
+	.work
+		&-item
+			width: 160px
+			&__title
+				font-size: 16px
+			&-arrow::after
+				width: 52px
+				right: -40px
+	.investor-work
+		.work
+			&-item
+				width: 160px
+				&-arrow::after
+					width: 52px
+					right: -40px
+	.breadcrumbs
+		&-item
+			&__icon
+				width: 29px
+				height: 29px
+				margin-right: 10px
+	.confirm
+		&-content
+			max-width: 280px
+			padding: 0 15px 35px
+		&-icon
+			width: 88px
+			height: 88px
+			img
+				max-width: 44px
+		&-form
+			&__input
+				.input
+					width: 82%
+					padding: 11px 15px
+				&::after
+					width: 82%
+			&__label
+				width: 18%
+			&__text
+				font-size: 14px
+				padding: 0
+			&__button
+				margin-bottom: 30px
+		&-buttons
+			flex-wrap: wrap
+			.btn
+				max-width: none
+			.gray-btn
+				margin-bottom: 19px
+	.data
+		padding-top: 31px
+		padding-bottom: 10px
+		&-form
+			&__image
+				margin-bottom: 30px
+			.profile-img
+				width: 60px
+				height: 60px
+	.form
+		&-item
+			margin-bottom: 30px
+			&__checkbox
+				text-align: left
+		&-title
+			font-size: 19px
+			line-height: 25px
+
+	.requisites
+		padding-top: 31px
+		padding-bottom: 15px
+	.toggle
+		display: none
+		&-title
+			margin-left: -15px
+			margin-right: -15px
+			padding-left: 50px
+			padding-right: 15px
+			padding-top: 30px
+			border-top: 1px solid #E0E0E0
+			.plus-minus-toggle
+				left: 20px
+				top: 48%
+		&-title.dop-border
+			// border-bottom: 1px solid #E0E0E0
+	.fact-checkbox
+		top: -33px
+	.profile
+		padding-top: 36px
+		// padding-bottom: 1px
+		&-section
+			padding-top: 0
+			border: none
+		.form-button
+			margin-bottom: 0
+			padding: 30px 15px
+			margin: 0 -15px
+			border-top: 1px solid #E0E0E0
+	.catalog
+		padding-top: 30px
+		&-item
+			padding-top: 0
+			background: #fff
+			&__title
+				font-size: 18px
+			&__date
+				font-size: 14px
+			&__photo
+				margin-left: -25px
+				margin-right: -25px
+				margin-bottom: 19px
+			&__description
+				// margin-left: -15px
+				// margin-right: -15px
+				flex-direction: column
+				margin-bottom: 20px
+			&__buttons
+				flex-wrap: wrap
+				.btn
+					flex: 0 0 100%
+				.green-btn
+					margin-bottom: 15px
+	.description-item
+		display: flex
+		align-items: center
+		justify-content: space-between
+		padding: 5px 0
+		&__title
+			margin-bottom: 0
+		&__text
+			font-size: 14px
+	.progresstext
+		font-size: 14px
+	.faq
+		padding-top: 25px
+		padding-bottom: 45px
+		&-question
+			font-size: 16px
+			padding: 10px 20px 10px 40px
+		.plus-minus-toggle
+			left: 20px
+		&-answer
+			padding: 15px
+			font-size: 14px
+			line-height: 25px
+	.tab
+		font-size: 12px
+		min-width: auto
+		padding: 14px 25px
+		span
+			display: none
+	.contracts
+		padding-top: 30px
+		.container
+			padding: 0
+		&-items
+			padding: 40px 15px 10px
+		&-item
+			padding: 19px 16px 0px
+			border-left-width: 12px
+	.pr-small
+		padding-right: 5px
+	.pl-small
+		padding-left: 5px
+	.project
+		.container
+			padding: 0
+	.oferta
+		&-main
+			padding: 0 18px 20px
+		&-photo
+			margin-left: -18px
+			margin-right: -18px
+		&-title
+			font-size: 18px
+		&-description
+			margin-left: -18px
+			margin-right: -18px
+			&__item
+				padding: 8px 18px
+		&-accordeon
+			&__content
+				&-item
+					flex-direction: column
+					align-items: flex-start
+					margin-bottom: 15px
+	.card
+		&-row
+			margin-left: 0
+			margin-right: 0
+			.col-md-6
+				padding: 0
+		&-item
+			padding: 25px 15px
+	.offers
+		padding-left: 15px
+		padding-right: 15px
+		&-title
+			font-size: 26px
+			line-height: 32px
+			margin-bottom: 25px
+	.calculator
+		&-wrap
+			padding-bottom: 0
+			padding-top: 27px
+			.calculator
+				margin-bottom: 0
+			.container
+				padding: 0
+		&-firstblock
+			padding: 32px 15px 0
+		&-greenblock
+			padding: 33px 15px 20px
+		&-button
+			margin-bottom: 18px
+		&-result
+			max-width: none
+			flex-direction: column
+			margin-bottom: 34px
+			span#result
+				margin-left: 0
+		&-item
+			&__value
+				input
+					padding: 5px
+					font-size: 18px
+	.pays
+		&-title
+			font-size: 16px
+			padding-left: 40px
+			.plus-minus-toggle
+				left: 18px
+		&-content
+			padding: 16px 0 0 
+		&-table
+			&__buttons
+				line-height: normal
+				.btn
+					display: block
+					margin-right: 0
+					margin-bottom: 10px
+					padding: 10px
+					text-align: center
+					max-width: 260px
+	.info
+		.container
+			padding: 0
+		&-content
+			padding: 25px 20px 5px 
+		&-item
+			padding: 12px
+	.ask
+		padding: 25px 20px
+		background: #F8F8FA
+		textarea
+			font-size: 18px
+			height: 190px
+			padding: 15px
+			margin-bottom: 15px
+		&-buttons
+			position: static
+			flex-wrap: wrap
+			.btn
+				flex: 0 0 100%
+		&-doc
+			margin-right: 0
+			flex: 0 0 100%
+			text-align: right
+			margin-bottom: 20px
+		&-section
+			background: #eeeff4
+			padding: 20px 0 127px
+	.settings
+		padding-top: 21px
+		&-content
+			padding: 27px 20px
+	.security
+		&-item
+			justify-content: space-between
+			padding: 8px 15px
+			&__title
+				flex: 0 0 auto
+			&__input
+				display: none
+			&__button
+				padding-left: 0
+				span
+					display: none
+				&::before
+					height: 42px
+					top: -9px
+	.add
+		padding-top: 30px
+		padding-bottom: 35px
+		&-button
+			.btn
+				width: 100%
+	.zaem-profile
+		padding-bottom: 0
+		.container
+			padding: 0
+		&-content
+			padding: 0 15px
+		&-section
+			padding-top: 30px
+		.toggle-section
+			padding-top: 0
+			border-bottom: none
+		.bb-sm-none
+			border-bottom: none
+@media(max-width: 500px)
+	.banner
+		&-bigtext
+			font-size: 26px
+			line-height: 34px
+			max-width: 210px
+	.about
+		.greenbanner-img
+			margin-left: -30px
+			img
+				max-width: 520px
+	.investor
+		.greenbanner-img
+			margin-left: -140px
+	.projects
+		&-item
+			&__text
+				padding: 15px
+			&__buttons
+				flex-direction: column
+				.btn
+					max-width: 100%
+					margin-bottom: 10px
+	.popup
+		padding: 11px 15px 30px 15px
+		&-form
+			&__checkbox
+				margin-bottom: 30px
+				label
+					font-size: 11px
+			&__buttons
+				text-align: center
+				.btn
+					display: block
+					margin-left: 0
+					width: 100%
+					margin-top: 15px
+@media(max-width: 400px)
+	.offers
+		&-item
+			&__title
+				font-size: 15px
+			&__invest
+				font-size: 18px
+		&-row
+			&__value
+				font-size: 15px
+	.calculator
+		&-title
+			font-size: 24px
+@media(max-width: 374px)
+	.col
+		&-phone
+			padding-left: 4px
+		&-logo
+			padding-right: 4px
+	.top-phone
+		font-size: 16px
+	.greenbanner
+		&-boldtext
+			font-size: 18px
+		&-text
+			font-size: 14px
+	.advantages
+		&-item
+			&__title
+				font-size: 18px
+			&__descr
+				font-size: 15px
+	.news
+		&-item
+			&__title
+				font-size: 18px
+	.zaem-text
+		p, li span
+			font-size: 15px
+		p.zaem-text__bold
+			font-size: 16px
+			line-height: 26px
+	.zaem.greenbanner
+		.greenbanner-img img
+			max-width: 300px
+	.investor
+		.greenbanner-img
+			margin-left: -165px
+	#politic .section-title
+	 font-size: 24px
+	.popup
+		&-form
+			&__position
+				margin-right: 25px
+			&__buttons .btn
+				padding: 12px 24px
+				font-size: 14px
+	.fancybox-wrap
+		width: 100% !important
+		left: 0 !important
+		padding: 0 10px
+	.fancybox-inner
+		width: 100% !important
+@media(max-width: 374px)
+	.contracts
+		&-item
+			&__description
+				padding: 8px
+				&-value
+					font-size: 15px
+	.settings
+		.tabs
+			overflow-x: scroll
+@media(max-width: 355px)
+	.toggle-title
+		font-size: 17px
+		&::before
+			margin-right: 8px
+	.catalog
+		&-item
+			padding: 0 15px 25px
+			&__photo
+				margin-left: -15px
+				margin-right: -15px
+	.calculator
+		&-title
+			font-size: 21px
+@media(max-width: 340px)
+	.banner
+		&-list
+			&__item
+				font-size: 11px

@@ -1,0 +1,91 @@
+.breadcrumbs
+	padding: 38px 0
+	border-bottom: 1px solid #E0E0E0
+	background: #FAFAFA
+	.row
+		flex-wrap: nowrap
+		// overflow-x: scroll
+	&-item
+		font-weight: 500
+		font-size: 17px
+		color: #787B7E
+		display: flex
+		align-items: center
+		flex: 0 0 auto
+		&__icon
+			width: 38px
+			height: 38px
+			border-radius: 100%
+			border: 2px solid #787B7E
+			background: url('../img/confirm.png') center no-repeat
+			flex-shrink: 0
+			margin-right: 15px
+		&-dashed
+			position: relative
+			&::after
+				content: ''
+				display: block
+				border-bottom: 3px dotted #787B7E
+				width: 40px
+				height: 15px
+				margin-left: 15px
+				margin-right: 15px
+		&-done
+			color: #59AB01
+			.breadcrumbs-item__icon
+				border: 2px solid #59AB01
+				background: url('../img/confirm-green.png') center no-repeat
+			&::after
+				border-bottom: 3px dotted #59AB01
+.profile-breadcrumbs
+	position: relative
+	z-index: 1
+	background: rgba(89, 171, 1, 0.9)
+	padding-top: 18px
+	padding-bottom: 18px
+	&::after
+		display: block
+		content: ''
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		background: url('../img/profile-breadcrumbs.png') center no-repeat
+		background-size: cover
+		z-index: -1
+	&__title
+		font-weight: 300
+		font-size: 30px
+		color: #FFF
+	&__list
+		margin: 0
+		padding: 0
+	&__item
+		display: inline-block
+		color: #fff
+		font-size: 14px
+		text-transform: uppercase
+		&-next
+			padding-left: 10px
+			padding-right: 10px
+.mobile-breadcrumbs
+	background: #eeeff4
+	padding-top: 15px
+	&__list
+		padding: 0
+		margin: 0
+	&__item
+		display: inline-block
+		font-weight: 300
+		font-size: 12px
+		text-transform: uppercase
+		color: #757D97
+		&-next
+			padding-left: 10px
+			padding-right: 10px
+			transform: translateY(-2px)
+@media(min-width: 576px)
+	.mobile-breadcrumbs
+		display: none
+

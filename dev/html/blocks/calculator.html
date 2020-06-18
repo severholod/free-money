@@ -1,0 +1,75 @@
+<section class="calculator">
+	<div class="calculator-firstblock">
+		<div class="calculator-title text-center">Предложить инвестирование в данную заявку</div>
+		<!-- <div class="calculator-subtitle text-center">Минимальная сумма инвестирования не может быть ниже 100 000 руб.</div> -->
+		<div class="row">
+			<div class="col-md-4">
+				<div class="calculator-item">
+					<div class="calculator-item__title">Сумма руб.</div>
+					<div class="calculator-item__slider">
+						<div id="sum-slider" class="calculator-slider"></div>
+					</div>
+					<div class="calculator-item__range">
+						<div class="range-from">50 000 руб.</div>
+						<div class="range-to">15 000 000 руб.</div>
+					</div>
+					<div class="calculator-item__value">
+						<input id="sum" type="text" value="100 000 руб." readonly="">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="calculator-item">
+					<div class="calculator-item__title">Процентная ставка</div>
+					<div class="calculator-item__slider">
+						<div id="percent-slider" class="calculator-slider"></div>
+					</div>
+					<div class="calculator-item__range">
+						<div class="range-from">15%</div>
+						<div class="range-to">50%</div>
+					</div>
+					<div class="calculator-item__value">
+						<input id="percent" type="text" value="30%" readonly=""> годовых
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="calculator-item">
+					<div class="calculator-item__title">Срок займа</div>
+					<div class="calculator-item__slider">
+						<div id="date-slider" class="calculator-slider"></div>
+					</div>
+					<div class="calculator-item__range">
+						<div class="range-from">6 месяцев</div>
+						<div class="range-to">36 месяцев</div>
+					</div>
+					<div class="calculator-item__value">
+						<input id="date" type="text" value="18" readonly=""> месяцев
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="calculator-greenblock">
+		<div class="row justify-content-center">
+			<div class="col-12">
+				<div class="calculator-result">Предполагаемый доход: <span id="result">70 120 руб.</span></div>
+			</div>
+			<div class="col-sm-4 col-xl-3">
+				<div class="calculator-button">
+					<a href="/pays.html" class="btn white-btn">ГРАФИК ПЛАТЕЖЕЙ</a>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xl-3">
+				<div class="calculator-button">
+					<a href="#" class="btn white-btn">Получить консультацию</a>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xl-3">
+				<div class="calculator-button">
+					<a href="#" class="btn white-btn">Инвестировать</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

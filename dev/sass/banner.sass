@@ -1,0 +1,67 @@
+.banner
+	padding-top: 115px
+	padding-bottom: 184px
+	background: url('../img/main-bg.jpg') no-repeat
+	background-position: 50%
+	background-size: cover
+	position: relative
+	z-index: 1
+	&::after
+		content: ''
+		display: block
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		background: rgba(0, 0, 0, 0.55)
+	&-content
+		z-index: 2
+		position: relative
+		color: #fff
+	&-list
+		display: flex
+		margin-bottom: 85px
+		&__item
+			display: flex
+			align-items: center
+			position: relative
+			font-size: 16px
+			line-height: 32px
+			&-line
+				padding-left: 30px
+				&::before
+					content: ''
+					display: block
+					height: 4px
+					background: #59AB01
+					width: 400px
+					position: absolute
+					left: -400px
+					top: calc(50% - 2px)
+			&-dot
+				padding-left: 12px
+				&::before
+					content: ''
+					display: inline-block
+					width: 6px
+					height: 6px
+					background: #59AB01
+					border-radius: 100%
+					margin-right: 12px
+	&-bigtext
+		font-weight: 300
+		font-size: 64px
+		line-height: 94px
+		max-width: 720px
+		margin-bottom: 48px
+	&-smalltext
+		font-weight: normal
+		font-size: 16px
+		line-height: 30px
+		margin-bottom: 60px
+		max-width: 372px
+	&-button
+		line-height: 77px
+		.btn
+			padding: 27px 66px

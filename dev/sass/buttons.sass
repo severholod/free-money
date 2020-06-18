@@ -1,0 +1,97 @@
+.btn
+	border-radius: 3px
+	text-transform: uppercase
+	font-size: 16px
+.white-btn
+	border: 2px solid #FFF
+	color: #fff
+	&:hover
+		color: #59AB01
+		text-decoration: none
+		background: #FFF
+.green-btn
+	border: 2px solid #59AB01
+	color: #59AB01
+	&:hover
+		color: #fff
+		text-decoration: none
+		background: #59AB01
+	&:active
+		background: #458500
+		border: 2px solid #458500
+.gray-btn
+	border: 2px solid #757D97
+	color: #757D97
+	&:hover
+		color: #fff
+		text-decoration: none
+		background: #757D97
+	&:active
+		background: #606883
+		border: 2px solid #606883
+.link
+	font-size: 14px
+	text-decoration: underline
+	text-transform: uppercase
+	color: #59AB01
+	cursor: pointer
+	&:hover
+		color: #59AB01
+button.btn
+	background-color: transparent
+button.link
+	background-color: transparent
+	border: none
+.toggler
+	position: relative
+	cursor: pointer
+.toggle-content
+	display: none
+	&-active
+		display: block
+.plus-minus-toggle
+	position: absolute
+	&__line
+	 display: block
+		&-first
+			width: 15px
+			height: 2px
+			transform: translateX(-6.5px)
+		&-second
+			width: 2px
+			height: 15px
+			transform: translateY(-8px)
+	&-white span
+		background: #FFF
+	&-green span
+		background: #59AB01
+	&-gray span
+		background: #757D97
+.open
+	.plus-minus-toggle__line-second
+		opacity: 0
+.tabs
+	display: flex
+.tab
+	background: #DDDFE9
+	padding: 14px 30px
+	text-align: center
+	box-shadow: 0px 0px 5px #D3D8E5
+	min-width: 215px
+	font-weight: bold
+	font-size: 15px
+	color: #4D5258
+	cursor: pointer
+	text-transform: uppercase
+	&-active
+		background: #fff
+		border-bottom: 3px solid #59AB01
+		color: #59AB01
+	&:first-child
+		border-radius: 5px 0px 0px 0px
+	&:last-child
+		border-radius: 0 5px 0px 0px
+	&-content
+		display: none
+		&-active
+			display: block

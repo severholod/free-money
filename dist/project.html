@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Свободные деньги</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+	<div class="overlay"></div>
+	<div class="mobile-menu mobile-menu-gray">
+		<ul class="mobile-menu__list">
+			<li class="mobile-menu__item"><a href="/catalog.html">Каталог проектов</a></li>
+			<li class="mobile-menu__item"><a href="/investor-profile.html">Профиль</a></li>
+			<li class="mobile-menu__item"><a href="/oferts.html">Ваши оферты</a></li>
+			<li class="mobile-menu__item mobile-menu__item-dropdown">
+				<a href="#" class="dropdown">Договоры</a>
+				<ul class="mobile-dropmenu">
+					<li class="mobile-dropmenu__item"><a href="/contracts.html">Ваши договоры</a></li>
+					<li class="mobile-dropmenu__item"><a href="templates.html">Шаблоны договоров</a></li>
+					<li class="mobile-dropmenu__item"><a href="/info.html">Полезная информация</a></li>
+					<li class="mobile-dropmenu__item"><a href="/calculator.html">Калькулятор</a></li>
+					<li class="mobile-dropmenu__item"><a href="/pays.html">Платежи</a></li>
+				</ul>
+			</li>
+			<li class="mobile-menu__item"><a href="/faq.html">Вопросы и ответы</a></li>
+			<li class="mobile-menu__item"><a href="/settings.html">Настройки</a></li>
+		</ul>
+	</div>
+	<div class="top">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-auto">
+					<div class="row">
+						<div class="col-auto">
+							<div class="top-phone"><a href="tel:88001232222">8 800 123 22 22</a></div>
+						</div>
+						<div class="col-auto">
+							<div class="top-link"><a href="#call" class="fancybox">Заказать звонок</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="row">
+						<div class="col-auto">
+							<div class="top-profile">
+								<div class="profile-img"><img src="/img/data-img.png" alt="Ольга Владимировна"></div>
+								<a href="/investor-profile.html" class="top-profile__name dropdown">Ольга Владимировна</a>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="top-login"><a href="#"><img src="/img/login.png" alt="Войти"></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header class="header header-investor">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="col-auto d-block d-md-none">
+					<div class="mobile-toggler">
+						<span class="mobile-toggler__line-first"></span>
+						<span class="mobile-toggler__line-second"></span>
+						<span class="mobile-toggler__line-third"></span>
+						<span class="mobile-toggler__line-fourth"></span>
+					</div>
+				</div>
+				<div class="col-auto col-logo">
+					<div class="header-logo"><a href="/"><img src="img/header-logo.png" alt="FFM"></a></div>
+				</div>
+				<div class="col-auto d-none d-md-block">
+					<nav class="header-nav">
+						<ul class="header-nav__list">
+							<li class="header-nav__item"><a href="/catalog.html">Каталог проектов</a></li>
+							<li class="header-nav__item"><a href="/investor-profile.html">Профиль</a></li>
+							<li class="header-nav__item"><a href="/oferts.html">Ваши оферты</a></li>
+							<li class="header-nav__item dropdown-item"><a class="dropdown" href="/contracts.html">Договоры</a>
+								<ul class="header-dropmenu">
+									<li class="header-dropmenu__item"><a href="templates.html">Шаблоны договоров</a></li>
+									<li class="header-dropmenu__item"><a href="/info.html">Полезная информация</a></li>
+									<li class="header-dropmenu__item"><a href="/calculator.html">Калькулятор</a></li>
+									<li class="header-dropmenu__item"><a href="/pays.html">Платежи</a></li>
+								</ul>
+							</li>
+							<li class="header-nav__item"><a href="/faq.html">Вопросы и ответы</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-auto col-phone d-block d-md-none">
+					<div class="top-phone"><a href="tel:88001232222"></a>8 800 123 22 22</div>
+				</div>
+				<div class="col-auto d-block d-md-none">
+					<div class="top-login"><a href="#"><img src="/img/login.png" alt="Войти"></a></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="padding"></div>
+	
+<div class="profile-breadcrumbs">
+	<div class="container">
+		<div class="row justify-content-between align-items-center">
+			<div class="col-auto">
+				<div class="profile-breadcrumbs__title">Проект №1111</div>
+			</div>
+			<div class="col-auto d-none d-sm-block">
+				<ul class="profile-breadcrumbs__list">
+					<li class="profile-breadcrumbs__item">Личный кабинет</li>
+					<li class="profile-breadcrumbs__item profile-breadcrumbs__item-next"><img src="/img/next-white.png" alt="breadcrumbs"></li>
+					<li class="profile-breadcrumbs__item">Каталог проектов</li>
+					<li class="profile-breadcrumbs__item profile-breadcrumbs__item-next"><img src="/img/next-white.png" alt="breadcrumbs"></li>
+					<li class="profile-breadcrumbs__item">Проект №1111</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mobile-breadcrumbs">
+	<div class="container">
+		<ul class="mobile-breadcrumbs__list">
+			<li class="mobile-breadcrumbs__item">Личный кабинет</li>
+			<li class="mobile-breadcrumbs__item mobile-breadcrumbs__item-next"><img src="/img/next-gray.png" alt="breadcrumbs"></li>
+			<li class="mobile-breadcrumbs__item">Каталог проектов</li>
+			<li class="mobile-breadcrumbs__item mobile-breadcrumbs__item-next"><img src="/img/next-gray.png" alt="breadcrumbs"></li>
+			<li class="mobile-breadcrumbs__item">Проект №1111</li>
+		</ul>
+	</div>
+</div>
+<section class="project section-bg">
+	<div class="container">
+		<div class="tabs">
+			<div class="tab tab-active" data-tab="oferta">ОФЕРТА</div>
+			<div class="tab" data-tab="card">КАРТОЧКА ЗАЕМЩИКА</div>
+		</div>
+		<div class="tab-content tab-content-active oferta">
+			<section class="oferta-main">
+	<div class="oferta-title d-none d-md-block">Проект № 1111</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="oferta-main-left">
+				<div class="oferta-photo"><img src="/img/projects/1-big.jpg" alt="Проект № 1111"></div>
+				<div class="oferta-title d-md-none">Проект № 1111</div>
+				<div class="progresstext">
+					Собрано <span class="collected">470000</span> руб. из <span class="goal">1000000</span> руб.
+				</div>
+				<div class="progresswrap"><div class="progress"></div></div>
+				<div class="oferta-offers">
+					<div>Предложений 17</div>
+					<div>Принято 10</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="oferta-main-right">
+				<div class="oferta-description table">
+					<div class="table-row">
+						<div class="table-row__title">Сумма займа</div>
+						<div class="table-row__value">1000000 руб.</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Срок финансирования</div>
+						<div class="table-row__value">12 месяцев</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Ставка по займу</div>
+						<div class="table-row__value">24% годовых</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">До окончания</div>
+						<div class="table-row__value">5 дней 12 часов</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Тип платежа</div>
+						<div class="table-row__value">аннуитет</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Дата публикации</div>
+						<div class="table-row__value">18.04.2020</div>
+					</div>
+				</div>
+				<div class="oferta-accordeon">
+					<div class="oferta-accordeon__title toggler">
+						Финансовая отчетность
+						<div class="plus-minus-toggle plus-minus-toggle-gray">
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-first"></span>
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-second"></span>
+						</div>
+					</div>
+					<div class="oferta-accordeon__content toggle-content">
+						<div class="oferta-accordeon__content-item">
+							<span>Бухгалтерская отчетность за последний год</span>
+							<a href="#file" class="link">Файл 1</a>
+						</div>
+						<div class="oferta-accordeon__content-item">
+							<span>Налоговая отчетность</span>
+							<a href="#file" class="link">Файл 2</a>
+						</div>
+					</div>
+				</div>
+				<div class="oferta-accordeon">
+					<div class="oferta-accordeon__title toggler">
+						Презентация
+						<div class="plus-minus-toggle plus-minus-toggle-gray">
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-first"></span>
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-second"></span>
+						</div>
+					</div>
+					<div class="oferta-accordeon__content toggle-content">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quo dignissimos eius porro ad placeat.
+					</div>
+				</div>
+				<div class="oferta-accordeon">
+					<div class="oferta-accordeon__title toggler">
+						Дополнительная информация
+						<div class="plus-minus-toggle plus-minus-toggle-gray">
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-first"></span>
+							<span class="plus-minus-toggle__line plus-minus-toggle__line-second"></span>
+						</div>
+					</div>
+					<div class="oferta-accordeon__content toggle-content">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nam.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="calculator">
+	<div class="calculator-firstblock">
+		<div class="calculator-title text-center">Предложить инвестирование в данную заявку</div>
+		<!-- <div class="calculator-subtitle text-center">Минимальная сумма инвестирования не может быть ниже 100 000 руб.</div> -->
+		<div class="row">
+			<div class="col-md-4">
+				<div class="calculator-item">
+					<div class="calculator-item__title">Сумма руб.</div>
+					<div class="calculator-item__slider">
+						<div id="sum-slider" class="calculator-slider"></div>
+					</div>
+					<div class="calculator-item__range">
+						<div class="range-from">50 000 руб.</div>
+						<div class="range-to">15 000 000 руб.</div>
+					</div>
+					<div class="calculator-item__value">
+						<input id="sum" type="text" value="100 000 руб." readonly="">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="calculator-item">
+					<div class="calculator-item__title">Процентная ставка</div>
+					<div class="calculator-item__slider">
+						<div id="percent-slider" class="calculator-slider"></div>
+					</div>
+					<div class="calculator-item__range">
+						<div class="range-from">15%</div>
+						<div class="range-to">50%</div>
+					</div>
+					<div class="calculator-item__value">
+						<input id="percent" type="text" value="30%" readonly=""> годовых
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="calculator-item">
+					<div class="calculator-item__title">Срок займа</div>
+					<div class="calculator-item__slider">
+						<div id="date-slider" class="calculator-slider"></div>
+					</div>
+					<div class="calculator-item__range">
+						<div class="range-from">6 месяцев</div>
+						<div class="range-to">36 месяцев</div>
+					</div>
+					<div class="calculator-item__value">
+						<input id="date" type="text" value="18" readonly=""> месяцев
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="calculator-greenblock">
+		<div class="row justify-content-center">
+			<div class="col-12">
+				<div class="calculator-result">Предполагаемый доход: <span id="result">70 120 руб.</span></div>
+			</div>
+			<div class="col-sm-4 col-xl-3">
+				<div class="calculator-button">
+					<a href="/pays.html" class="btn white-btn">ГРАФИК ПЛАТЕЖЕЙ</a>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xl-3">
+				<div class="calculator-button">
+					<a href="#" class="btn white-btn">Получить консультацию</a>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xl-3">
+				<div class="calculator-button">
+					<a href="#" class="btn white-btn">Инвестировать</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="offers">
+	<div class="container">
+		<div class="offers-title text-center">Предложения инвестирования</div>
+		<div class="row">
+			<div class="col-md-6 col-xl-4">
+				<div class="offers-item">
+					<div class="offers-row offers-row__head">
+						<div class="offers-item__title">Инвестор 45678</div>
+						<div class="offers-item__invest">100 000 руб.</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Срок финансирования:</div>
+						<div class="offers-row__value">12 месяцев</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Ставка по займу:</div>
+						<div class="offers-row__value">24% годовых</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Дата:</div>
+						<div class="offers-row__value">21.10.2020</div>
+					</div>
+					<div class="offers-status offers-status-accepted">Статус : <span>Принято</span></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="offers-item">
+					<div class="offers-row offers-row__head">
+						<div class="offers-item__title">Инвестор 45678</div>
+						<div class="offers-item__invest">100 000 руб.</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Срок финансирования:</div>
+						<div class="offers-row__value">12 месяцев</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Ставка по займу:</div>
+						<div class="offers-row__value">24% годовых</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Дата:</div>
+						<div class="offers-row__value">21.10.2020</div>
+					</div>
+					<div class="offers-status offers-status-denied">Статус : <span>Отказ</span></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="offers-item">
+					<div class="offers-row offers-row__head">
+						<div class="offers-item__title">Инвестор 45678</div>
+						<div class="offers-item__invest">100 000 руб.</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Срок финансирования:</div>
+						<div class="offers-row__value">12 месяцев</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Ставка по займу:</div>
+						<div class="offers-row__value">24% годовых</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Дата:</div>
+						<div class="offers-row__value">21.10.2020</div>
+					</div>
+					<div class="offers-status offers-status-accepted">Статус : <span>Принято</span></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="offers-item">
+					<div class="offers-row offers-row__head">
+						<div class="offers-item__title">Инвестор 45678</div>
+						<div class="offers-item__invest">100 000 руб.</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Срок финансирования:</div>
+						<div class="offers-row__value">12 месяцев</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Ставка по займу:</div>
+						<div class="offers-row__value">24% годовых</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Дата:</div>
+						<div class="offers-row__value">21.10.2020</div>
+					</div>
+					<div class="offers-status offers-status-denied">Статус : <span>Отказ</span></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="offers-item">
+					<div class="offers-row offers-row__head">
+						<div class="offers-item__title">Инвестор 45678</div>
+						<div class="offers-item__invest">100 000 руб.</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Срок финансирования:</div>
+						<div class="offers-row__value">12 месяцев</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Ставка по займу:</div>
+						<div class="offers-row__value">24% годовых</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Дата:</div>
+						<div class="offers-row__value">21.10.2020</div>
+					</div>
+					<div class="offers-status offers-status-accepted">Статус : <span>Принято</span></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="offers-item">
+					<div class="offers-row offers-row__head">
+						<div class="offers-item__title">Инвестор 45678</div>
+						<div class="offers-item__invest">100 000 руб.</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Срок финансирования:</div>
+						<div class="offers-row__value">12 месяцев</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Ставка по займу:</div>
+						<div class="offers-row__value">24% годовых</div>
+					</div>
+					<div class="offers-row">
+						<div class="offers-row__title">Дата:</div>
+						<div class="offers-row__value">21.10.2020</div>
+					</div>
+					<div class="offers-status offers-status-accepted">Статус : <span>Принято</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		</div>
+		<div class="tab-content card">
+			<section class="card">
+	<div class="card-item">
+		<div class="row">
+			<div class="col-12">
+				<div class="profile-img-wrap">
+					<div class="profile-img .profile-photo"><img src="/img/zaem/zaem-avatar.png" alt="Заемщик №1234"></div>
+					<div class="profile-name">Заемщик №1234</div>
+				</div>
+			</div>
+			<div class="col-12">
+				<div class="card-business">
+					<div class="card-title">Описание бизнеса</div>
+					<div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card-description">
+					<div class="card-title">Описание заемщика</div>
+					<div class="table">
+						<div class="table-row">
+							<div class="table-row__title">Город</div>
+							<div class="table-row__value">название</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Организационно-правовая форма</div>
+							<div class="table-row__value">ООО, ИП, АО, ОАО</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Дата создании бизнеса</div>
+							<div class="table-row__value">возраст бизнеса</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Основная деятельность</div>
+							<div class="table-row__value">Оптовая и розничная торговля бытовой техникой</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Дополнительная деятельность</div>
+							<div class="table-row__value">Торговля программным обеспечением</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Сезонность  бизнеса</div>
+							<div class="table-row__value">есть/нет (продолжительность)</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Используемые ОС</div>
+							<div class="table-row__value">описание</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Подтверждение местонахождения</div>
+							<div class="table-row__value">Свидетельство собственности</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Помещения используемые в бизнесе</div>
+							<div class="table-row__value">писание (аренда/собственность, кв.м)</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Количество сотрудников</div>
+							<div class="table-row__value">10 сотрудников</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Сайт</div>
+							<div class="table-row__value">(да/нет, посещаемость в день)</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Поставщики</div>
+							<div class="table-row__value">Известные мировые бренды производителей бытовой техники: НТС, Canon, Sony</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Покупатели</div>
+							<div class="table-row__value">80% - заказчики в рамках госконтрактов, 20% -покупатели интернет-магазина</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card-description">
+					<div class="card-title">Прочее</div>
+					<div class="table">
+						<div class="table-row">
+							<div class="table-row__title">Кредитный рейтинг</div>
+							<div class="table-row__value">устанавливает модератор</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Цель займа</div>
+							<div class="table-row__value">Исполнение обязательств по контрактам на поставку электротехники</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Выручка согласно последней сданной годовой отчетности с НДС</div>
+							<div class="table-row__value">102 878 тыс. руб.</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Чистая прибыль</div>
+							<div class="table-row__value">227 тыс. руб.</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Внутренняя КИ на площадке</div>
+							<div class="table-row__value">есть (описание)/нет</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Ссылки на предыдущие займы</div>
+							<div class="table-row__value">добавляется</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Внешняя КИ компании</div>
+							<div class="table-row__value">есть (описание)/нет</div>
+						</div>
+						<div class="table-row">
+							<div class="table-row__title">Правовая среда</div>
+							<div class="table-row__value">суды</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row card-row">
+		<div class="col-md-6">
+			<div class="card-item">
+				<div class="card-title">Собственник 1</div>
+				<div class="table">
+					<div class="table-row">
+						<div class="table-row__title">Год рождения (доля %)</div>
+						<div class="table-row__value">год рождения (доля %)</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Гражданство</div>
+						<div class="table-row__value">РФ, либо иное</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Образование учредителей</div>
+						<div class="table-row__value">высшее/среднее</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Личные активы</div>
+						<div class="table-row__value">описание</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Внешняя КИ собственника</div>
+						<div class="table-row__value">добавляет инфо модератор</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card-item">
+				<div class="card-title">Собственник 2</div>
+				<div class="table">
+					<div class="table-row">
+						<div class="table-row__title">Год рождения (доля %)</div>
+						<div class="table-row__value">год рождения (доля %)</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Гражданство</div>
+						<div class="table-row__value">РФ, либо иное</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Образование учредителей</div>
+						<div class="table-row__value">высшее/среднее</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Личные активы</div>
+						<div class="table-row__value">описание</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Внешняя КИ собственника</div>
+						<div class="table-row__value">добавляет инфо модератор</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card-item">
+				<div class="card-title">Собственник 3</div>
+				<div class="table">
+					<div class="table-row">
+						<div class="table-row__title">Год рождения (доля %)</div>
+						<div class="table-row__value">год рождения (доля %)</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Гражданство</div>
+						<div class="table-row__value">РФ, либо иное</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Образование учредителей</div>
+						<div class="table-row__value">высшее/среднее</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Личные активы</div>
+						<div class="table-row__value">описание</div>
+					</div>
+					<div class="table-row">
+						<div class="table-row__title">Внешняя КИ собственника</div>
+						<div class="table-row__value">добавляет инфо модератор</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		</div>
+	</div>
+</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-md-auto">
+					<div class="footer-item">Свободные деньги © 2020</div>
+				</div>
+				<div class="col-md-auto">
+					<div class="footer-item"><a href="#politic" class="footer-politic fancybox">Политика конфиденциальности</a></div>
+				</div>
+				<div class="col-md-auto">
+					<div class="footer-item"><a href="tel:88001232222" class="footer-phone">8 800 123 22 22</a></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="popup" id="call">
+		<div class="section-title text-center">Оставьте заявку</div>
+		<div class="popup-subtitle text-center">и мы свяжемся с Вами в ближайшее время</div>
+		<div class="popup-form">
+			<form action="">
+				<div class="popup-form__item">
+					<label for="" class="label">Телефон</label>
+					<input type="text" class="input">
+				</div>
+				<div class="popup-form__item">
+					<label for="" class="label">E-mail</label>
+					<input type="text" class="input">
+				</div>
+				<div class="popup-form__checkbox"><input type="checkbox" id="call-checkbox" checked><label for="call-checkbox"><span>Ознакомлен с <a href="#politic" class="fancybox">офертой, пользовательским соглашением, политикой обработки персональных данных</a> и согласен на обработку персональных данных</label></span></div>
+				<div class="popup-form__buttons text-center">
+					<button type="submit" class="btn green-btn">Заказать звонок</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="popup" id="sign-in">
+		<div class="popup-title section-title black-title">Регистрация</div>
+		<div class="popup-form">
+			<form action="">
+				<div class="popup-form__positions">
+					<div class="popup-form__position">
+						<input type="radio" name="position" value="Инвестор" id="invest">
+						<label for="invest">Инвестор</label>
+					</div>
+					<div class="popup-form__position">
+						<input type="radio" name="position" value="Заемщик" id="zaym" checked>
+						<label for="zaym">Заемщик</label>
+					</div>
+				</div>
+				<div class="popup-form__item">
+					<label for="" class="label">Телефон</label>
+					<input type="text" class="input">
+				</div>
+				<div class="popup-form__item">
+					<label for="" class="label">E-mail</label>
+					<input type="text" class="input">
+				</div>
+				<div class="popup-form__checkbox"><input type="checkbox" id="sign-in-checkbox" checked><label for="sign-in-checkbox"><span>Ознакомлен с <a href="#politic" class="fancybox">офертой, пользовательским соглашением, политикой обработки персональных данных</a> и согласен на обработку персональных данных</label></span></div>
+				<div class="popup-form__buttons">
+					<a href="#log-in" class="popup-form__link link fancybox">Я уже зарегистрирован</a>
+					<button type="submit" class="btn green-btn">Далее</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="popup" id="call-done">
+		<div class="popup-img"></div>
+		<div class="section-title text-center">Спасибо, заявка отправлена!</div>
+		<div class="popup-subtitle text-center">Наши специалисты свяжутся с вами в ближайшее время</div>
+	</div>
+	<div class="popup" id="politic">
+		<div class="popup-title section-title black-title text-center">Политика конфиденциальности</div>
+		<div class="text-justify">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut repellat optio ex tempore vitae perspiciatis ab, sunt labore, libero neque, vel illo cupiditate, dolore amet quidem minus eos itaque minima voluptatem modi consectetur molestias fuga culpa. Non totam architecto aspernatur, quisquam, minus, enim at eligendi ipsum aliquid modi, molestias voluptatibus quam est voluptas esse tempore tenetur molestiae! Voluptas vel temporibus molestiae, provident quod distinctio ipsam quaerat ab deserunt nam velit tenetur illum quis aut, a adipisci debitis veniam architecto nisi dolores, consequuntur quae. Eaque excepturi molestiae, aperiam soluta pariatur et, voluptatibus harum quisquam explicabo ratione iste quae, repellendus consequatur totam?</p>
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime a distinctio asperiores earum maiores molestias.</li>
+				<li>Sunt rem porro aperiam voluptatum saepe veritatis, eaque repudiandae id, obcaecati doloremque praesentium nisi, aliquam.</li>
+				<li>Dolores nam culpa minima, neque dolorem temporibus voluptas distinctio impedit, eligendi, expedita fuga. Cum, delectus?</li>
+				<li>Temporibus, quibusdam voluptatibus modi quasi, culpa fugiat, explicabo sint officiis aperiam ea quo maxime quisquam.</li>
+				<li>Omnis accusamus quo ab officiis possimus similique nostrum quas rem veritatis, accusantium, magnam, id alias.</li>
+			</ul>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sit delectus earum quasi esse quis totam consequatur iure corrupti voluptatem et atque est, blanditiis, sunt aspernatur nostrum rerum eveniet iste quae, voluptate minima eius aperiam dolor consectetur! Consectetur, cumque ipsum, perferendis excepturi corrupti repellat ipsa iste sit veritatis aliquid? Quia.</p>
+			<ol>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime a distinctio asperiores earum maiores molestias.</li>
+				<li>Sunt rem porro aperiam voluptatum saepe veritatis, eaque repudiandae id, obcaecati doloremque praesentium nisi, aliquam.</li>
+				<li>Dolores nam culpa minima, neque dolorem temporibus voluptas distinctio impedit, eligendi, expedita fuga. Cum, delectus?</li>
+			</ol>
+		</div>
+	</div>
+	<script src="js/libs.min.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<div class="profile-breadcrumbs">
+	<div class="container">
+		<div class="row justify-content-between align-items-center">
+			<div class="col-auto">
+				<div class="profile-breadcrumbs__title">Добавить оферту</div>
+			</div>
+			<div class="col-auto d-none d-sm-block">
+				<ul class="profile-breadcrumbs__list">
+					<li class="profile-breadcrumbs__item">Личный кабинет</li>
+					<li class="profile-breadcrumbs__item profile-breadcrumbs__item-next"><img src="/img/next-white.png" alt="breadcrumbs"></li>
+					<li class="profile-breadcrumbs__item">Добавить оферту</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mobile-breadcrumbs">
+	<div class="container">
+		<ul class="mobile-breadcrumbs__list">
+			<li class="mobile-breadcrumbs__item">Личный кабинет</li>
+			<li class="mobile-breadcrumbs__item mobile-breadcrumbs__item-next"><img src="/img/next-gray.png" alt="breadcrumbs"></li>
+			<li class="mobile-breadcrumbs__item">Добавить оферту</li>
+		</ul>
+	</div>
+</div>
+<section class="add section-bg">
+	<div class="container">
+		<form action="" class="add-form">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="form-item">
+						<label for="region" class="label">Регион</label>
+						<select name="region" id="region" class="input">
+							<option value="">Москва</option>
+							<option value="">Моксковская область</option>
+							<option value="">Санкт-Петербург</option>
+							<option value="">Самарская область</option>
+							<option value="">Респ. Башкортостан</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="form-item">
+						<label for="summa" class="label">Сумма займа</label>
+						<input type="text" class="input" id="summa" name="summa">
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="form-item">
+						<label for="time" class="label">Срок</label>
+						<input type="text" class="input" id="time" name="time">
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-sm-8 col-lg-4">
+					<div class="form-item">
+						<label for="" class="label">Ставка(включая ндфл)</label>
+						<div class="calculator-item__slider">
+							<div id="range-slider" class="calculator-slider"></div>
+						</div>
+						<div class="calculator-item__range">
+							<div class="range-from">15%</div>
+							<div class="range-to">50%</div>
+						</div>
+						<div class="calculator-item__value">
+							от <input id="range-from" type="text" value="15%" readonly=""> — до <input id="range-to" type="text" value="30%" readonly="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<div class="form-item">
+						<label for="objective" class="label">Цель займа</label>
+						<textarea name="objective" id="objective"  class="input"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-end">
+				<div class="col-sm-6 col-lg-4">
+					<div class="form-item">
+						<label for="revenue" class="label">Выручка согласно последней сданной годовой отчетности</label>
+						<input type="text" class="input" id="revenue" name="revenue">
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="form-item">
+						<label for="profit" class="label">Чистая прибыль</label>
+						<input type="text" class="input" id="profit" name="profit">
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-sm-6 col-lg-4">
+					<div class="form-item">
+						<label class="label">Презентация</label>
+						<div class="add-file">
+							<input type="file" id="presentation" name="presentation" multiple="">Перетащите документы в это окно или нажмите <label for="presentation">загрузить файлы</label>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="form-item">
+						<label class="label">Финансовая отчетность</label>
+						<div class="add-file">
+							<input type="file" id="report" name="report" multiple="">Перетащите документы в это окно или нажмите <label for="report">загрузить файлы</label>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="form-item">
+						<label class="label">Дополнительная информация</label>
+						<div class="add-file">
+							<input type="file" id="dop" name="dop" multiple="">Перетащите документы в это окно или нажмите <label for="dop">загрузить файлы</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="add-button"><button class="btn green-btn">ОТПРАВИТЬ ЗАЯВКУ</button></div>
+		</form>
+	</div>
+</section>
